@@ -10,3 +10,5 @@ Crear una aplicación para descargar y geolocalizar el [listado oficial](http://
 ### Código
 * [Web-scraping](https://github.com/datos-solidarios/rastreo-apartamentos-turisticos-irregulares/tree/master/codigo/web-scrapping): Jupyter Notebook para descargar los datos del listado oficial.
 * [Geolocalización](https://github.com/datos-solidarios/rastreo-apartamentos-turisticos-irregulares/tree/master/codigo/geolocalizacion): código Node.js para geolocalizar los apartamentos.
+### Información del proyecto
+Puedes conocer más detalles del proyecto en la [web oficial](https://sites.google.com/view/datos-solidarios/proyectos/rastreo-de-apartamentos-tur%C3%ADsticos-irregulares?authuser=0).
