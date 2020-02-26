@@ -6,5 +6,6 @@ Crear una aplicación para descargar y geolocalizar el [listado oficial](https:/
 ## Cómo usarlo
 ### Datos
 En [/datos](https://github.com/datos-solidarios/rastreo-apartamentos-turisticos-irregulares/edit/master/) hay 3 ficheros:
+* [apartamentos.csv](https://github.com/datos-solidarios/rastreo-apartamentos-turisticos-irregulares/blob/master/datos/apartamentos.csv)
 
 ### Código
