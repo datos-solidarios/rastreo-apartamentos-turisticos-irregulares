@@ -4,3 +4,7 @@ La explosión de apartamentos turísticos, tipo Airbnb,  que están experimentan
 ## Objetivos
 Crear una aplicación para descargar y geolocalizar el [listado oficial](https://www.turisme.gva.es/opencms/opencms/turisme/es/contents/tramitacion/empresa_turistica/faq_preguntas_frecuentes_viviendas_turisticas.html) de apartamentos turísticos de la Comunidad Valenciana. Además, permite identificar apartamentos situados en pisos 2º y superiores, ya que municipios como Valencia los prohíben expresamente.
 ## Cómo usarlo
+### Datos
+En [/datos](https://github.com/datos-solidarios/rastreo-apartamentos-turisticos-irregulares/edit/master/) hay 3 ficheros:
+
+### Código
