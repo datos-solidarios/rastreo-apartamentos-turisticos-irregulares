@@ -5,4 +5,8 @@ La explosión de apartamentos turísticos, tipo Airbnb, que están experimentand
 Crear una aplicación para descargar y geolocalizar el [listado oficial](http://comunitatvalenciana.com/viaje/alojamiento/viviendas-turisticas) de apartamentos turísticos de la Comunidad Valenciana. Además, permite identificar apartamentos situados en pisos 2º y superiores, ya que municipios como Valencia los prohíben expresamente.
 ## Cómo usarlo
 ### Datos
+* [viviendas_turisticas_raw.csv](https://github.com/datos-solidarios/rastreo-apartamentos-turisticos-irregulares/blob/master/datos/viviendas_turisticas_raw.csv): datos en bruto, extraídos directamente del [listado oficial](http://comunitatvalenciana.com/viaje/alojamiento/viviendas-turisticas).
+* [viviendas_valencia_cleansed.xlsx](https://github.com/datos-solidarios/rastreo-apartamentos-turisticos-irregulares/blob/master/datos/viviendas_valencia_cleansed.xlsx): apartamentos de la ciudad de Valencia, geolocalizados y con la dirección estandarizada.
 ### Código
+* [Web-scraping](https://github.com/datos-solidarios/rastreo-apartamentos-turisticos-irregulares/tree/master/codigo/web-scrapping): Jupyter Notebook para descargar los datos del listado oficial.
+* [Geolocalización](https://github.com/datos-solidarios/rastreo-apartamentos-turisticos-irregulares/tree/master/codigo/geolocalizacion): código Node.js para geolocalizar los apartamentos.
