@@ -6,6 +6,7 @@ Crear una aplicación para descargar y geolocalizar el [listado oficial](https:/
 ## Cómo usarlo
 ### Datos
 En [/datos](https://github.com/datos-solidarios/rastreo-apartamentos-turisticos-irregulares/edit/master/) hay 3 ficheros:
-* [apartamentos.csv](https://github.com/datos-solidarios/rastreo-apartamentos-turisticos-irregulares/blob/master/datos/apartamentos.csv)
+* [apartamentos.csv](https://github.com/datos-solidarios/rastreo-apartamentos-turisticos-irregulares/blob/master/datos/apartamentos.csv): datos en bruto de todos los apartamentos turísticos de la Comunidad Valenciana (Fuente:[GVA]()).
+[viviendas_turisticas.csv](https://github.com/datos-solidarios/rastreo-apartamentos-turisticos-irregulares/blob/master/datos/viviendas_turisticas.csv): datos en bruto de todos los apartamentos turísticos de la Comunidad Valenciana (Fuente: [GVA](https://www.turisme.gva.es/opencms/opencms/turisme/es/contents/tramitacion/empresa_turistica/faq_preguntas_frecuentes_viviendas_turisticas.html)).
 
 ### Código
