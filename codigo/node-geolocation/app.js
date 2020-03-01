@@ -8,8 +8,8 @@ const argv = require('yargs').argv
 const csvFilePath ='./viviendas_turisticas.csv'
 const googleApiKey = process.env.HERE_API_KEY
 
-let start = argv.start
-let end = argv.end
+let start = argv.start || 0
+let end = argv.end || 1000000
 
 //Valencian turistic apartments, to geolocate with google.
 csv()
