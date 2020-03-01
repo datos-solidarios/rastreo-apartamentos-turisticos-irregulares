@@ -4,6 +4,13 @@ La explosión de apartamentos turísticos, tipo Airbnb, que están experimentand
 ## Objetivos
 Crear una aplicación para descargar y geolocalizar el [listado oficial](http://comunitatvalenciana.com/viaje/alojamiento/viviendas-turisticas) de apartamentos turísticos de la Comunidad Valenciana. Además, permite identificar apartamentos situados en pisos 2º y superiores, ya que municipios como Valencia los prohíben expresamente.
 ## Cómo usarlo
+### Node geolocation
+ - `npm install` en el directorio de node-geolocation
+ - Crea una developer account en www.here.com, coloca tu api key en un .env file en el directorio node-geolocation
+ - Node app.js coje dos parametros --start --end, recomendamos usar los parametros para correr el programa por grupos de datos. Eg:
+  - node app.js --start 0 --end 500 Generaria un archivo con los primeros 500 datos geolocalizados. Despues podriamos ejecutar --start 500 --end 1000. Y asi sucesivamente hasta procesar toda la informacion.
+ - mergeViviendas.js junta los archivos extraidos anteriormente en un solo archivo, require modificar el codigo especificando los archivos a juntar.
+
 ### Datos
 * [viviendas_turisticas_raw.csv](https://github.com/datos-solidarios/rastreo-apartamentos-turisticos-irregulares/blob/master/datos/viviendas_turisticas_raw.csv): datos en bruto, extraídos directamente del [listado oficial](http://comunitatvalenciana.com/viaje/alojamiento/viviendas-turisticas).
 * [viviendas_valencia_cleansed.xlsx](https://github.com/datos-solidarios/rastreo-apartamentos-turisticos-irregulares/blob/master/datos/viviendas_valencia_cleansed.xlsx): apartamentos de la ciudad de Valencia, geolocalizados y con la dirección estandarizada.
