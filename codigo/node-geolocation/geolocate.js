@@ -25,7 +25,6 @@ let geolocate = async (address) => {
     curatedGeolocation.apiAddress = geolocationData.Address.Label
     curatedGeolocation.postalCode = geolocationData.Address.PostalCode
     curatedGeolocation.apiLocationId = geolocationData.LocationId
-    console.log(JSON.stringify(curatedGeolocation))
   }
   return curatedGeolocation
 }

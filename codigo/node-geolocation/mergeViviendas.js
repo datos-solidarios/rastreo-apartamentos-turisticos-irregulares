@@ -10,5 +10,4 @@ viviendas.forEach(vivienda => {
   vivienda.Latitude = vivienda["displayCoordenates"] ? vivienda["displayCoordenates"]["Latitude"] : "-"
   vivienda.Longitude = vivienda["displayCoordenates"] ? vivienda["displayCoordenates"]["Longitude"] : "-"
 })
-console.log(viviendas.length)
 fs.writeFileSync(`./viviendas/viviendas_final.json`, JSON.stringify(viviendas, null, 4))

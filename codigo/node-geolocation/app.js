@@ -15,7 +15,6 @@ let end = argv.end
 csv()
 .fromFile(csvFilePath)
 .then(async (jsonObj)=>{
-    console.log(jsonObj[0]);
     jsonObj = jsonObj.filter(vivienda => {
       return vivienda.municipio == "València"
     })
