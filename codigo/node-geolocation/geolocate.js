@@ -1,7 +1,7 @@
+require('dotenv').config()
 const request = require('request-promise')
 const utf8 = require('utf8');
-require('dotenv').config()
-let apiKey = process.env.GEOCODING_API_KEY
+const apiKey = process.env.GEOCODING_API_KEY
 
 
 let geolocate = async (address) => {

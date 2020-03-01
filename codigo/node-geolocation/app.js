@@ -6,7 +6,7 @@ const geolocate = require('./geolocate.js')
 const argv = require('yargs').argv
 
 const csvFilePath ='./viviendas_turisticas.csv'
-let googleApiKey = process.env.GOOGLE_API_KEY
+const googleApiKey = process.env.GOOGLE_API_KEY
 
 let start = argv.start
 let end = argv.end
