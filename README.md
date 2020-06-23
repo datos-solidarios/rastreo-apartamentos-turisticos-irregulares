@@ -1,4 +1,4 @@
-# Rastreo de apartamentos turísticos ilegales
+# Rastreo de apartamentos turísticos irregulares
 ## Contexto
 La explosión de apartamentos turísticos, tipo Airbnb, que están experimentando muchas ciudades españolas, ha hecho saltar las alarmas de algunas asociaciones vecinales, que temen los efectos negativos del turismo descontrolado para los inquilinos tradicionales. Aunque muchos municipios han regulado la oferta de apartamentos turísticos, las asociaciones denuncian que las irregularidades son frecuentes y que la administración no actúa con la contundencia necesaria. Ante esta situación, los datos se convierten en  una herramienta clave para visibilizar el problema y sostener las denuncias ante las autoridades.
 ## Objetivos
